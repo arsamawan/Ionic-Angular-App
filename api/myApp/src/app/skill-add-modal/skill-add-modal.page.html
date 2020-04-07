@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-button color="danger" (click)="closeModal()">
+        close
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{isUpdate ? 'Update' : 'Add'}} SKILLS</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+    <ion-item>
+      <ion-label position="floating">Field</ion-label>
+      <ion-input [(ngModel)]="fields" name="name"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Description</ion-label>
+        <ion-textarea auto-grow="true" [(ngModel)]="desc" name="address" ></ion-textarea>
+    </ion-item>
+
+    <ion-button fill="outline" expand="block" color="primary"  class="ion-margin-top" type="submit" (click)="onSubmit()">{{isUpdate ? 'Update' : 'Save'}}</ion-button>
+
+</ion-content>

@@ -1,0 +1,18 @@
+.avatar{
+  background-color: #48a495;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0d0d0d;
+}
+
+ion-header{
+  --ion-text-color: #02C39A;
+}
+ion-content{
+  --ion-background-color: #A5D3D9;
+  --ion-text-color: #47525E;
+}

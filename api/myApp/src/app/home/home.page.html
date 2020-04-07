@@ -1,0 +1,19 @@
+<ion-header [translucent]="true" >
+  <ion-toolbar>
+<ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding" >
+  <ion-list *ngFor="let student of students">
+       <!-- Items GET from DB -->
+        <ion-card class="myCard" (click)="fetchDetail(student)">
+            <img [src]="student.imageUrl">
+            <div class="myOverlay">
+
+                <div class="card-title" style="font-weight: bolder; font-size: 20px" >{{student.name}}</div><br>
+                <div class="card-subtitle" style="font-weight: bold; font-size: 16px">{{student.jobTitle}}</div>
+            </div>
+        </ion-card>
+  </ion-list>
+
+</ion-content>
