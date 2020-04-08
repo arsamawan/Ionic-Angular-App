@@ -33,6 +33,10 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)},
+  {
+    path: 'onboard',
+    loadChildren: () => import('./onboard/onboard.module').then( m => m.OnboardPageModule)
+  },
 
 
 
