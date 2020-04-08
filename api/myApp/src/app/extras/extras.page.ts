@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./extras.page.scss'],
 })
 export class ExtrasPage implements OnInit {
+  extra: any;
 
   constructor() { }
 

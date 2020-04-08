@@ -1,18 +1,18 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
     <ion-buttons>
       <ion-button color="danger" (click)="closeModal()">
         close
       </ion-button>
     </ion-buttons>
-    <ion-title >Description!</ion-title>
+    <ion-title >techModels</ion-title>
   </ion-toolbar>
 </ion-header>
 <!--Details of Card-->
 <ion-content>
   <div class="divElement">
   <img [src]="std.imageUrl">
-  <div style="font-weight: bold; font-size: 21px">{{std.name + ',' + std.jobTitle}}</div><br>
+  <div style="font-weight: bold; font-size: 21px; font-family: Helvetica">{{std.name + ',' + std.jobTitle}}</div><br>
   <div style="font-size: 19px">{{std.careerDesc}}</div>
   </div>
 </ion-content>

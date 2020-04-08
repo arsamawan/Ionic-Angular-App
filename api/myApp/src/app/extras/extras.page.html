@@ -1,38 +1,65 @@
-
-  <ion-header>
+ <ion-header [translucent]="true">
     <ion-toolbar>
-      <ion-title >extras</ion-title>
+      <ion-title >techModels</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <ion-content class="masters">
+  <ion-content>
 
-  <ion-item class="adjust">
+
+      <div class="ion-padding">
+          <ion-segment [(ngModel)]="extra">
+              <ion-segment-button value="vid">
+                  Videos
+              </ion-segment-button>
+              <ion-segment-button value="pod">
+                 Podcast
+          </ion-segment-button>
+          </ion-segment>
+      </div>
+      <div [ngSwitch]="extra">
+          <ion-list *ngSwitchCase="'vid'">
+              <ion-item class="adjust">
+
+              <iframe width="320" height="250" src="https://www.youtube.com/embed/XebNxUE3ugA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </ion-item>
+              <ion-item class="adjust">
+                  <iframe width="320" height="250" src="https://www.youtube.com/embed/DthKXHDF7aU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </ion-item>
+              <ion-item class="adjust">
+                  <iframe width="320" height="250" src="https://www.youtube.com/embed/6UN2iKneBE8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/HYtYz19-rOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/Hb-xlJgvCm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/PYyBqs_x044" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/qmKE-Oc-Qu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/a5olW9uvsqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/XFn7iN_hrQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/hufMi9LZX2I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/XEHDQMTZ0Wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+
+
+          </ion-list>
+
+
+
+
+
+
+          <ion-list *ngSwitchCase="'pod'">
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/pwc-uk-podcast/sets/a-z-of-tech" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/cnasdc/wins-junor" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/techontap_podcast/episode-93-women-in-tech" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/best-of-tech-startups/internet-history-podcast-amazon-hulu-and-oculus-with-eugene-wei" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/best-of-tech-startups/internet-history-podcast-amazon-hulu-and-oculus-with-eugene-wei" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/powerfm987/women-in-science-and-technology-docus-lekganyane" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+              <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/swepodcasts/diverse-episode-21-women-executives-in-engineering-pamela-jackson-vp-of-technology-at-emerson" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+
+          </ion-list>
+      </div>
+
+
       <!-- Videos Embedded via HTML iframe Method  -->
-    <iframe width="320" height="250" src="https://www.youtube.com/embed/XebNxUE3ugA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</ion-item>
-    <ion-item class="adjust">
-      <iframe width="320" height="250" src="https://www.youtube.com/embed/DthKXHDF7aU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </ion-item>
-    <ion-item class="adjust">
-      <iframe width="320" height="250" src="https://www.youtube.com/embed/6UN2iKneBE8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/HYtYz19-rOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/Hb-xlJgvCm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/PYyBqs_x044" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/qmKE-Oc-Qu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/a5olW9uvsqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/XFn7iN_hrQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/hufMi9LZX2I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://www.youtube.com/embed/XEHDQMTZ0Wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <h1 style="margin-left: 25%">---PODCASTS---</h1>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/pwc-uk-podcast/sets/a-z-of-tech" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/cnasdc/wins-junor" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/techontap_podcast/episode-93-women-in-tech" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/best-of-tech-startups/internet-history-podcast-amazon-hulu-and-oculus-with-eugene-wei" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/best-of-tech-startups/internet-history-podcast-amazon-hulu-and-oculus-with-eugene-wei" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/powerfm987/women-in-science-and-technology-docus-lekganyane" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
-    <ion-item class="adjust"><iframe width="320" height="250" src="https://soundcloud.com/swepodcasts/diverse-episode-21-women-executives-in-engineering-pamela-jackson-vp-of-technology-at-emerson" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
 
   </ion-content>
 
