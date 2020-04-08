@@ -1,13 +1,13 @@
 
 <ion-content fullscreen class="ion-padding" scroll-y="false">
-  <ion-slides pager="true" [options]="slideOpts" style="height:100% ; background-color: #A5D3D9">
+  <ion-slides pager="true" [options]="slideOpts" style="height:100% ; background-color: #A5D3D9" #slides>
   <!--  Welcome Page Slide-->
     <ion-slide style="background-color: #A5D3D9">
       <div class="slide">
 
         <h1 style="margin-bottom: 85px">techModels</h1>
         <h3>Guiding you towards Technology</h3>
-        <ion-button>Getting Started</ion-button>
+        <ion-button (click)="Next()">Getting Started</ion-button>
       </div>
     </ion-slide>
    <!-- Home Page Slide-->
