@@ -30,11 +30,12 @@ const routes: Routes = [
     loadChildren: () => import('./skill-add-modal/skill-add-modal.module').then( m => m.SkillAddModalPageModule)
   },
 
+ {
+    path: 'tabs',
+    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
+  },
   {
     path: '',
-    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)},
-  {
-    path: 'onboard',
     loadChildren: () => import('./onboard/onboard.module').then( m => m.OnboardPageModule)
   },
 

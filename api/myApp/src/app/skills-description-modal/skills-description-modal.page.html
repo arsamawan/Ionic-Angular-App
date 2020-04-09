@@ -10,5 +10,12 @@
 </ion-header>
 
 <ion-content>
-  <div class="divElement" style="font-weight: bold;font-size: 18px; font-family: Helvetica">{{std1.description}}</div>
+  <div class="divElement" style="font-weight: bold;font-size: 18px; font-family: Helvetica">{{std1.description}}
+  <h6 style="font-weight: bolder; font-family: Helvetica">Please Check Out the Link Below:</h6>
+  <ion-item detail="false" href="{{std1.link}}">
+    <ion-button style="margin-left: 33%; " color="medium">
+      ClickMe!
+    </ion-button>
+  </ion-item>
+  </div>
 </ion-content>

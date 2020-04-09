@@ -7,6 +7,7 @@ export interface Skills {
   skillID: string;
   fields: string;
   description: string;
+  link: string;
 }
 
 

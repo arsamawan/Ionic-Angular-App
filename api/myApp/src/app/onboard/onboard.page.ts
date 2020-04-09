@@ -3,6 +3,7 @@ import {NavController} from '@ionic/angular';
 import { IonSlides } from '@ionic/angular';
 import { ViewChild } from '@angular/core';
 
+
 @Component({
   selector: 'app-onboard',
   templateUrl: './onboard.page.html',
