@@ -4,12 +4,10 @@
     <list default="true" id="9f503ebc-49b0-4b05-bfc8-e49211e3ba52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modal-description/modal-description.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modal-description/modal-description.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/onboard/onboard.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/onboard/onboard.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/onboard/onboard-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/onboard/onboard-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/onboard/onboard.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/onboard/onboard.page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/skill.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/skill.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/skills-description-modal/skills-description-modal.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/skills-description-modal/skills-description-modal.page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tabs/tabs-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tabs/tabs.page.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <workItem from="1586247309446" duration="9783000" />
       <workItem from="1586261418686" duration="14254000" />
       <workItem from="1586335548164" duration="18954000" />
-      <workItem from="1586419706838" duration="7499000" />
+      <workItem from="1586419706838" duration="15060000" />
     </task>
     <servers />
   </component>

@@ -3,7 +3,6 @@ import {NavController} from '@ionic/angular';
 import { IonSlides } from '@ionic/angular';
 import { ViewChild } from '@angular/core';
 
-
 @Component({
   selector: 'app-onboard',
   templateUrl: './onboard.page.html',
@@ -22,7 +21,7 @@ export class OnboardPage implements OnInit {
 
   }
 direct() {
-    this.navCtrl.navigateForward('tabs/home');
+    this.navCtrl.navigateForward('tabs');
   }
   Next() {
 /*    alert('Slide Next!');*/

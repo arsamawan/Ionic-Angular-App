@@ -4,7 +4,7 @@ import {SkillsPage} from './skills/skills.page';
 
 const routes: Routes = [
  // { path: '', redirectTo: 'tab', pathMatch: 'full' },
- // { path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},
+ /*{ path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},*/
   {
     path: 'student-modal',
     loadChildren: () => import('./student-modal/student-modal.module').then( m => m.StudentModalPageModule)
@@ -30,10 +30,9 @@ const routes: Routes = [
     loadChildren: () => import('./skill-add-modal/skill-add-modal.module').then( m => m.SkillAddModalPageModule)
   },
 
- {
+  {
     path: 'tabs',
-    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
-  },
+    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)},
   {
     path: '',
     loadChildren: () => import('./onboard/onboard.module').then( m => m.OnboardPageModule)
