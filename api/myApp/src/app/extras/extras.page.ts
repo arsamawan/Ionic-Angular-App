@@ -6,11 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./extras.page.scss'],
 })
 export class ExtrasPage implements OnInit {
-  extra: any;
 
   constructor() { }
+  extra: any;
+
+
 
   ngOnInit() {
+  }
+  arsam(parameter1) {
+    console.log('Heloworld!');
   }
 
 }

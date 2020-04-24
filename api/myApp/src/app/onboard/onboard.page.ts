@@ -24,7 +24,6 @@ direct() {
     this.navCtrl.navigateForward('tabs');
   }
   Next() {
-/*    alert('Slide Next!');*/
     this.slides.slideNext();
   }
 }

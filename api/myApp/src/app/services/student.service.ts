@@ -15,7 +15,7 @@ export interface Student {
   providedIn: 'root'
 })
 export class StudentService {
-  private url = 'http://localhost/crud_api/api/studentss';
+  private url = 'http://localhost/crud_api/api/app.php';
   constructor(private  http: HttpClient) { }
 
   getAll() {

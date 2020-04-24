@@ -16,7 +16,7 @@ export interface Skills {
 })
 export class SkillService {
 
-  private urlSkill = 'http://localhost/crud_api/api/skills';
+  private urlSkill = 'http://localhost/crud_api/api/app1.php';
   constructor(private  http: HttpClient) { }
 
 
